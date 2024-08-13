@@ -46,7 +46,7 @@ switch statement will determine the case, and open the browser.
                     options.addArguments("--no-sandbox");
 //                    options.addArguments("--headless");
 //                    options.addArguments("--headless");
-                    options.setHeadless(false);
+                    options.setHeadless(true);
                     options.addArguments("start-maximized"); // open Browser in maximized mode
                     options.addArguments("disable-infobars"); // disabling infobars
                     options.addArguments("--disable-extensions"); // disabling extensions
